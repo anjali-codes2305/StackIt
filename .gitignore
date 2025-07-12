@@ -1,0 +1,34 @@
+# Ignore node_modules in both frontend and backend
+/frontend/node_modules
+/backend/node_modules
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# dotenv environment variables
+.env
+.env.local
+
+# Dependency directories
+node_modules/
+
+# Build outputs
+frontend/build/
+frontend/dist/
+backend/dist/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Optional: ignore coverage reports and test outputs
+coverage/
+*.test.js
